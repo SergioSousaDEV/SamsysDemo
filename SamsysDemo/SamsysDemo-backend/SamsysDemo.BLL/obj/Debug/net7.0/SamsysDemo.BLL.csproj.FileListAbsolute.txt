@@ -1,0 +1,45 @@
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\bin\Debug\net7.0\SamsysDemo.BLL.deps.json
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\bin\Debug\net7.0\SamsysDemo.BLL.dll
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\bin\Debug\net7.0\SamsysDemo.BLL.pdb
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDemo.BLL.csproj.AssemblyReference.cache
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDemo.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDemo.BLL.AssemblyInfoInputs.cache
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDemo.BLL.AssemblyInfo.cs
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDemo.BLL.csproj.CoreCompileInputs.cache
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDemo.BLL.dll
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\refint\SamsysDemo.BLL.dll
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDemo.BLL.pdb
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\ref\SamsysDemo.BLL.dll
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\bin\Debug\net7.0\SamsysDemo.Infrastructure.dll
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\bin\Debug\net7.0\SamsysDemo.Infrastructure.pdb
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDemo.BLL.csproj.CopyComplete
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\bin\Debug\net7.0\SamsysDemo.BLL.deps.json
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\bin\Debug\net7.0\SamsysDemo.BLL.dll
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\bin\Debug\net7.0\SamsysDemo.BLL.pdb
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\bin\Debug\net7.0\SamsysDemo.Infrastructure.dll
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\bin\Debug\net7.0\SamsysDemo.Infrastructure.pdb
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDemo.BLL.csproj.AssemblyReference.cache
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDemo.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDemo.BLL.AssemblyInfoInputs.cache
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDemo.BLL.AssemblyInfo.cs
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDemo.BLL.csproj.CoreCompileInputs.cache
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDemo.BLL.csproj.CopyComplete
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDemo.BLL.dll
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\refint\SamsysDemo.BLL.dll
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDemo.BLL.pdb
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\ref\SamsysDemo.BLL.dll
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\bin\Debug\net7.0\SamsysDemo.BLL.deps.json
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\bin\Debug\net7.0\SamsysDemo.BLL.dll
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\bin\Debug\net7.0\SamsysDemo.BLL.pdb
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\bin\Debug\net7.0\SamsysDemo.Infrastructure.dll
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\bin\Debug\net7.0\SamsysDemo.Infrastructure.pdb
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDemo.BLL.csproj.AssemblyReference.cache
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDemo.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDemo.BLL.AssemblyInfoInputs.cache
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDemo.BLL.AssemblyInfo.cs
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDemo.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDe.3EA53066.Up2Date
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDemo.BLL.dll
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\refint\SamsysDemo.BLL.dll
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\SamsysDemo.BLL.pdb
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.BLL\obj\Debug\net7.0\ref\SamsysDemo.BLL.dll

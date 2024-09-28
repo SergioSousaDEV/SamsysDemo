@@ -1,0 +1,51 @@
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\bin\Debug\net7.0\SamsysDemo.DAL.deps.json
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\bin\Debug\net7.0\SamsysDemo.DAL.dll
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\bin\Debug\net7.0\SamsysDemo.DAL.pdb
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.csproj.AssemblyReference.cache
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.AssemblyInfoInputs.cache
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.AssemblyInfo.cs
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.csproj.CoreCompileInputs.cache
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.dll
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\refint\SamsysDemo.DAL.dll
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.pdb
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\ref\SamsysDemo.DAL.dll
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\bin\Debug\net7.0\SamsysDemo.DAL.runtimeconfig.json
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.genruntimeconfig.cache
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\bin\Debug\net7.0\SamsysDemo.Infrastructure.dll
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\bin\Debug\net7.0\SamsysDemo.Infrastructure.pdb
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.csproj.CopyComplete
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\bin\Debug\net7.0\SamsysDemo.DAL.deps.json
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\bin\Debug\net7.0\SamsysDemo.DAL.runtimeconfig.json
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\bin\Debug\net7.0\SamsysDemo.DAL.dll
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\bin\Debug\net7.0\SamsysDemo.DAL.pdb
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\bin\Debug\net7.0\SamsysDemo.Infrastructure.dll
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\bin\Debug\net7.0\SamsysDemo.Infrastructure.pdb
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.csproj.AssemblyReference.cache
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.AssemblyInfoInputs.cache
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.AssemblyInfo.cs
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.csproj.CoreCompileInputs.cache
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.csproj.CopyComplete
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.dll
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\refint\SamsysDemo.DAL.dll
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.pdb
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.genruntimeconfig.cache
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\ref\SamsysDemo.DAL.dll
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\bin\Debug\net7.0\SamsysDemo.DAL.deps.json
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\bin\Debug\net7.0\SamsysDemo.DAL.runtimeconfig.json
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\bin\Debug\net7.0\SamsysDemo.DAL.dll
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\bin\Debug\net7.0\SamsysDemo.DAL.pdb
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\bin\Debug\net7.0\SamsysDemo.Infrastructure.dll
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\bin\Debug\net7.0\SamsysDemo.Infrastructure.pdb
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.csproj.AssemblyReference.cache
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.AssemblyInfoInputs.cache
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.AssemblyInfo.cs
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDe.04771BA5.Up2Date
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.dll
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\refint\SamsysDemo.DAL.dll
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.pdb
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\SamsysDemo.DAL.genruntimeconfig.cache
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.DAL\obj\Debug\net7.0\ref\SamsysDemo.DAL.dll

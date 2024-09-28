@@ -1,0 +1,34 @@
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\bin\Debug\net7.0\SamsysDemo.Infrastructure.deps.json
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\bin\Debug\net7.0\SamsysDemo.Infrastructure.dll
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\bin\Debug\net7.0\SamsysDemo.Infrastructure.pdb
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\SamsysDemo.Infrastructure.csproj.AssemblyReference.cache
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\SamsysDemo.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\SamsysDemo.Infrastructure.AssemblyInfoInputs.cache
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\SamsysDemo.Infrastructure.AssemblyInfo.cs
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\SamsysDemo.Infrastructure.csproj.CoreCompileInputs.cache
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\SamsysDemo.Infrastructure.dll
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\refint\SamsysDemo.Infrastructure.dll
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\SamsysDemo.Infrastructure.pdb
+D:\ReposTempo\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\ref\SamsysDemo.Infrastructure.dll
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\bin\Debug\net7.0\SamsysDemo.Infrastructure.deps.json
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\bin\Debug\net7.0\SamsysDemo.Infrastructure.dll
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\bin\Debug\net7.0\SamsysDemo.Infrastructure.pdb
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\SamsysDemo.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\SamsysDemo.Infrastructure.AssemblyInfoInputs.cache
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\SamsysDemo.Infrastructure.AssemblyInfo.cs
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\SamsysDemo.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\SamsysDemo.Infrastructure.dll
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\refint\SamsysDemo.Infrastructure.dll
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\SamsysDemo.Infrastructure.pdb
+C:\Projetos\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\ref\SamsysDemo.Infrastructure.dll
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\bin\Debug\net7.0\SamsysDemo.Infrastructure.deps.json
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\bin\Debug\net7.0\SamsysDemo.Infrastructure.dll
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\bin\Debug\net7.0\SamsysDemo.Infrastructure.pdb
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\SamsysDemo.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\SamsysDemo.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\SamsysDemo.Infrastructure.AssemblyInfo.cs
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\SamsysDemo.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\SamsysDemo.Infrastructure.dll
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\refint\SamsysDemo.Infrastructure.dll
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\SamsysDemo.Infrastructure.pdb
+C:\Users\Sérgio Sousa\Documents\GitHub\SamsysDemo\SamsysDemo\SamsysDemo-backend\SamsysDemo.Infrastructure\obj\Debug\net7.0\ref\SamsysDemo.Infrastructure.dll
