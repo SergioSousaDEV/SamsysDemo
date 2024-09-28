@@ -10,7 +10,10 @@ export default defineConfig(({ mode }) => {
     plugins: [react()],
     define: {
       'process.env': JSON.stringify(env)
-    }
+      },
+      build: {
+          sourcemap: true
+      }
 
   }
 })
