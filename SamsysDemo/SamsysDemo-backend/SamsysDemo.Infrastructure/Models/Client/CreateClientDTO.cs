@@ -15,7 +15,7 @@ namespace SamsysDemo.Infrastructure.Models.Client
     //  for example, the ID and ConcurrencyToken should only be included in the ClientDTO and not on CreateClientDTO.
     //
     //The ClientDTO represents a client that already exists in the database.
-    //I will map the DateOfBirth field as a option field.        
+    //I will map the DateOfBirth field as a optional field.        
 
     public class CreateClientDTO
     {
