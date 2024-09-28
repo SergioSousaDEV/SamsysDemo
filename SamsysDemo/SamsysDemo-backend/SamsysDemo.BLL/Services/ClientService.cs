@@ -12,9 +12,18 @@ using System.Threading.Tasks;
 
 namespace SamsysDemo.BLL.Services
 {
+    //Interface for client service contracts
+    //Will be usefull for implementation of unit testing
+    public interface IClientService
+    {
+        Task<MessagingHelper<ClientDTO>> Get(long id);
+        Task<MessagingHelper<ClientDTO>> CreateClient(CreateClientDTO clientDTO);
+        Task<MessagingHelper> Update(long id, UpdateClientDTO clientToUpdate);
+        Task<MessagingHelper> EnableClient(long id);
+        Task<MessagingHelper> DisableClient(long id);
+    }
 
-
-    public class ClientService
+    public class ClientService : IClientService
     {
         private readonly IUnitOfWork _unitOfWork;
 
@@ -53,6 +62,32 @@ namespace SamsysDemo.BLL.Services
                 response.SetMessage($"Ocorreu um erro inesperado ao obter o cliente.");
                 return response;
             }
+        }
+
+        public async Task<MessagingHelper<ClientDTO>> CreateClient(CreateClientDTO clientToCreate)
+        {
+            MessagingHelper<ClientDTO> response = new();
+            Client? client = null;
+
+            try
+            {
+                response = IsValidClientToCreate(clientToCreate);
+                if (response.Success)
+                {
+                    //As a good practice, will be passed the CreateClientDTO to Client to be easier to manage if in future requires more fields
+                    client = new Client(clientToCreate);
+                    await _unitOfWork.ClientRepository.Insert(client);
+                    await _unitOfWork.SaveAsync();
+                    response.Success = true;
+                    response.Obj = Map(client);
+                }
+            }
+            catch (Exception ex)
+            {
+                response.Success = false;
+                response.SetMessage($"Ocorreu um erro inesperado ao criar o cliente. Tente novamente.");
+            }
+            return response;
         }
 
         public async Task<MessagingHelper> Update(long id, UpdateClientDTO clientToUpdate)
@@ -113,7 +148,6 @@ namespace SamsysDemo.BLL.Services
                 return response;
             }
         }
-
         public async Task<MessagingHelper> EnableClient(long id)
         {
             MessagingHelper<Client> response = new();
@@ -138,6 +172,32 @@ namespace SamsysDemo.BLL.Services
                 response.SetMessage($"Ocorreu um erro ativar o cliente.");
                 return response;
             }
+        }
+        private MessagingHelper<ClientDTO> IsValidClientToCreate(CreateClientDTO clientToCreate)
+        {
+            //Will be considered an error if the specified date is later than today.
+
+            MessagingHelper<ClientDTO> result = new MessagingHelper<ClientDTO>();
+            result.Success = true;
+
+            if (clientToCreate.DateOfBirth.HasValue && clientToCreate.DateOfBirth.Value > DateTime.UtcNow)
+            {
+                result.Success = false;
+                result.SetMessage($"A data de nascimento indicada não é válida!.");
+            }
+
+            return result;
+        }
+        private ClientDTO Map(Client client)
+        {
+            return new ClientDTO
+            {
+                Id = client.Id,
+                Name = client.Name,
+                PhoneNumber = client.PhoneNumber,
+                IsActive = client.IsActive,
+                DateOfBirth = client.DateOfBirth
+            };
         }
     }
 }

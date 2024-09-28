@@ -24,6 +24,28 @@ namespace SamsysDemo.Controllers
             return await _clientService.Get(id);
         }
 
+        [HttpPost]
+        public async Task<ActionResult<MessagingHelper<ClientDTO>>> CreateClient(CreateClientDTO clientToCreateDTO)
+        {
+            //I think it's a good approach to validate the state of the DTO before sending to the BLL
+            if(clientToCreateDTO != null)
+            {
+                MessagingHelper<ClientDTO> result = await _clientService.CreateClient(clientToCreateDTO);
+                if (result.Success)
+                {
+                    //Return a 201 Created with the ID of this new Client
+                    return CreatedAtAction(nameof(Get), new { id = result.Obj.Id }, result);
+                }
+                else
+                {
+                    return BadRequest(result);
+                }
+            }
+            else
+            {
+                return BadRequest("Client data is null");
+            }
+        }
         [HttpPut("{id}")]
         public async Task<MessagingHelper> Update(int id, UpdateClientDTO clientToUpdateDTO)
         {
