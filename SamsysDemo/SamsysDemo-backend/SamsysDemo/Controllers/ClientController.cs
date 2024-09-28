@@ -24,6 +24,26 @@ namespace SamsysDemo.Controllers
             return await _clientService.Get(id);
         }
 
+        [HttpGet]
+        public async Task<ActionResult<MessagingHelper<PaginatedList<ClientDTO>>>> GetAllPaginated([FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 10)
+        {
+            if (pageNumber > 0 && pageSize > 0)
+            {
+
+                MessagingHelper<PaginatedList<ClientDTO>> result = await _clientService.GetAllPaginated(pageNumber, pageSize);
+                if (result.Success)
+                {
+                    return Ok(result);
+                }
+                return BadRequest(result);
+            }
+            else
+            {
+                return BadRequest("Page number and Page size must be higher than 0");
+            }
+        }
+
+
         [HttpPost]
         public async Task<ActionResult<MessagingHelper<ClientDTO>>> CreateClient(CreateClientDTO clientToCreateDTO)
         {

@@ -16,6 +16,7 @@ namespace SamsysDemo.BLL.Services
     //Will be usefull for implementation of unit testing
     public interface IClientService
     {
+        Task<MessagingHelper<PaginatedList<ClientDTO>>> GetAllPaginated(int pageNumber, int pageSize);
         Task<MessagingHelper<ClientDTO>> Get(long id);
         Task<MessagingHelper<ClientDTO>> CreateClient(CreateClientDTO clientDTO);
         Task<MessagingHelper> Update(long id, UpdateClientDTO clientToUpdate);
@@ -32,6 +33,50 @@ namespace SamsysDemo.BLL.Services
             _unitOfWork = unitOfWork;
         }
 
+        //It's a good practice to paginate the GetAll to improve performance and scalability
+        //Will be used the PaginatedList Helper although wasn't mentioned to be used
+        public async Task<MessagingHelper<PaginatedList<ClientDTO>>> GetAllPaginated(int pageNumber, int pageSize)
+        {
+            MessagingHelper<PaginatedList<ClientDTO>> response = new();           
+            response.Success = true;
+            try
+            {
+                int totalRecords = await _unitOfWork.ClientRepository.GetTotalRecordsCount();
+                List<Client> clients = await _unitOfWork.ClientRepository.GetAllPaginated(pageNumber, pageSize);
+                if (clients != null && clients.Count == 0)
+                {
+                    response.SetMessage($"Não existem clientes!");                 
+                }
+                else
+                {                    
+                    response.Obj = Map(clients, totalRecords, pageNumber, pageSize);
+                }
+                return response;
+            }
+            catch (Exception ex)
+            {
+                response.Success = false;
+                response.SetMessage($"Ocorreu um erro inesperado ao obter o cliente.");
+            }
+            return response;
+        }
+
+        private PaginatedList<ClientDTO> Map(List<Client>? clients,int totalRecords, int pageNumber, int pageSize)
+        {
+            PaginatedList<ClientDTO> result = new PaginatedList<ClientDTO>();   
+            result.TotalRecords = totalRecords;
+            result.CurrentPage = pageNumber;
+            result.PageSize = pageSize;
+
+            if (clients != null)
+            {
+                foreach (Client clientBO in clients)
+                {
+                    result.Items.Add(Map(clientBO));
+                }              
+            }
+            return result;
+        }
 
         public async Task<MessagingHelper<ClientDTO>> Get(long id)
         {
@@ -196,7 +241,9 @@ namespace SamsysDemo.BLL.Services
                 Name = client.Name,
                 PhoneNumber = client.PhoneNumber,
                 IsActive = client.IsActive,
-                DateOfBirth = client.DateOfBirth
+                DateOfBirth = client.DateOfBirth,
+                ConcurrencyToken = Convert.ToBase64String(client.ConcurrencyToken)
+
             };
         }
     }
