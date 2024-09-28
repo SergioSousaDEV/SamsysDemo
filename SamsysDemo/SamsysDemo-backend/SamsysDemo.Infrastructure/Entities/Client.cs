@@ -28,6 +28,8 @@ namespace SamsysDemo.Infrastructure.Entities
 
         public DateTime? DateRemoved { get; set; }
 
+        public DateTime? DateOfBirth { get; set; }
+
         public void Update(string name, string phoneNumber)
         {
             Name = name;
