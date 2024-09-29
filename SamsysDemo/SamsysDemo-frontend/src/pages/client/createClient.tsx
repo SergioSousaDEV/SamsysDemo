@@ -1,15 +1,12 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
 import { Col, Row } from "reactstrap";
 import { ClientDTO } from "../../models/client/clientDTO";
 import { ClientCreateDTO } from "../../models/client/clientCreateDTO";
 import { MessagingHelper } from "../../models/helper/messagingHelper";
 import { ClientService } from "../../services/clientService";
-import ClientStatusComponent from "../../components/client/statusComponent";
 
 export default function CreateClient() {
 
-    const resultCreateClient: MessagingHelper<ClientDTO | null> = new MessagingHelper<ClientDTO | null>(false,"",null);
     const [clientToCreate, setClientToCreate] = useState<ClientCreateDTO>({
         name: '',
         phoneNumber: '',
