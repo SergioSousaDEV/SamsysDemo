@@ -10,7 +10,9 @@ using System.Threading.Tasks;
 namespace SamsysDemo.Infrastructure.Interfaces.Repositories
 {
     public interface IClientRepository 
-    {           
+    {
+        Task<int> GetTotalRecordsCount();
+        Task<List<Client>> GetAllPaginated(int pageNumber, int pageSize);
         Task<Client?> GetById(object id, string[]? includedProperties = null);
         Task Insert(Client entityToInsert);
         void Update(Client entityToUpdate, string concurrencyToken);

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SamsysDemo.Infrastructure.Models.Client;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -11,7 +12,7 @@ using System.Threading.Tasks;
 namespace SamsysDemo.Infrastructure.Entities
 {
     public class Client
-    {
+    {        
         [Key]
         public long Id { get; set; }
 
@@ -27,6 +28,21 @@ namespace SamsysDemo.Infrastructure.Entities
         public bool IsRemoved { get; set; } = false;
 
         public DateTime? DateRemoved { get; set; }
+
+        public DateTime? DateOfBirth { get; set; }
+
+
+        public Client() { }
+
+        public Client(CreateClientDTO dto)
+        {
+            Name = dto.Name;
+            PhoneNumber = dto.PhoneNumber;
+            IsActive = dto.IsActive;
+            DateOfBirth = dto.DateOfBirth;
+            IsRemoved = false;
+            ConcurrencyToken = new byte[8];
+        }
 
         public void Update(string name, string phoneNumber)
         {

@@ -1,5 +1,8 @@
 namespace SamsysDemo
 {
+    /// <summary>
+    /// This class seems to be out of scope of the application business
+    /// </summary>
     public class WeatherForecast
     {
         public DateOnly Date { get; set; }
