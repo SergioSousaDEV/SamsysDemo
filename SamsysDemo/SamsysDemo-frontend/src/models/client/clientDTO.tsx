@@ -1,4 +1,5 @@
 export interface ClientDTO {
+    id: number;
     name: string;
     phoneNumber: string;
     isActive: boolean;
