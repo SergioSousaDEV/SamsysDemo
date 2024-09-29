@@ -1,4 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SamsysDemo.BLL.Mappers;
+using SamsysDemo.BLL.Validators;
 using SamsysDemo.Infrastructure.Entities;
 using SamsysDemo.Infrastructure.Helpers;
 using SamsysDemo.Infrastructure.Interfaces.Repositories;
@@ -35,6 +37,8 @@ namespace SamsysDemo.BLL.Services
 
         //It's a good practice to paginate the GetAll to improve performance and scalability
         //Will be used the PaginatedList Helper although wasn't mentioned to be used
+        //Added Mapper to split the responsability of mapping data and logic
+        //It will be necessary to be possible to implement unit testing 
         public async Task<MessagingHelper<PaginatedList<ClientDTO>>> GetAllPaginated(int pageNumber, int pageSize)
         {
             MessagingHelper<PaginatedList<ClientDTO>> response = new();           
@@ -49,7 +53,7 @@ namespace SamsysDemo.BLL.Services
                 }
                 else
                 {                    
-                    response.Obj = Map(clients, totalRecords, pageNumber, pageSize);
+                    response.Obj = clients.Map(totalRecords, pageNumber, pageSize);
                 }
                 return response;
             }
@@ -61,22 +65,7 @@ namespace SamsysDemo.BLL.Services
             return response;
         }
 
-        private PaginatedList<ClientDTO> Map(List<Client>? clients,int totalRecords, int pageNumber, int pageSize)
-        {
-            PaginatedList<ClientDTO> result = new PaginatedList<ClientDTO>();   
-            result.TotalRecords = totalRecords;
-            result.CurrentPage = pageNumber;
-            result.PageSize = pageSize;
-
-            if (clients != null)
-            {
-                foreach (Client clientBO in clients)
-                {
-                    result.Items.Add(Map(clientBO));
-                }              
-            }
-            return result;
-        }
+        
 
         public async Task<MessagingHelper<ClientDTO>> Get(long id)
         {
@@ -117,7 +106,7 @@ namespace SamsysDemo.BLL.Services
 
             try
             {
-                response = IsValidClientToCreate(clientToCreate);
+                response = ClientValidator.IsValidClientToCreate(clientToCreate);
                 if (response.Success)
                 {
                     //As a good practice, will be passed the CreateClientDTO to Client to be easier to manage if in future requires more fields
@@ -125,7 +114,7 @@ namespace SamsysDemo.BLL.Services
                     await _unitOfWork.ClientRepository.Insert(client);
                     await _unitOfWork.SaveAsync();
                     response.Success = true;
-                    response.Obj = Map(client);
+                    response.Obj = client.Map();
                 }
             }
             catch (Exception ex)
@@ -219,33 +208,7 @@ namespace SamsysDemo.BLL.Services
                 return response;
             }
         }
-        private MessagingHelper<ClientDTO> IsValidClientToCreate(CreateClientDTO clientToCreate)
-        {
-            //Will be considered an error if the specified date is later than today.
-
-            MessagingHelper<ClientDTO> result = new MessagingHelper<ClientDTO>();
-            result.Success = true;
-
-            if (clientToCreate.DateOfBirth.HasValue && clientToCreate.DateOfBirth.Value > DateTime.UtcNow)
-            {
-                result.Success = false;
-                result.SetMessage($"A data de nascimento indicada não é válida!.");
-            }
-
-            return result;
-        }
-        private ClientDTO Map(Client client)
-        {
-            return new ClientDTO
-            {
-                Id = client.Id,
-                Name = client.Name,
-                PhoneNumber = client.PhoneNumber,
-                IsActive = client.IsActive,
-                DateOfBirth = client.DateOfBirth,
-                ConcurrencyToken = Convert.ToBase64String(client.ConcurrencyToken)
-
-            };
-        }
+        
+        
     }
 }

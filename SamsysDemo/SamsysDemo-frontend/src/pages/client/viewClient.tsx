@@ -48,18 +48,18 @@ export default function ViewClient() {
                             <th>Ativado?</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody>                        
                         <tr key={clientToView.id}>
                             <td>{clientToView.id}</td>
                             <td>{clientToView.name}</td>
                             <td>{clientToView.phoneNumber}</td>
-                            <td>{clientToView.dateOfBirth}</td>
+                            <td>{new Date(clientToView.dateOfBirth).toLocaleDateString()}</td>
                             <td>{clientToView.isActive ? "Sim" : "Não"}</td>
                         </tr>
                     </tbody>
                 </table>
             ) : (
-                <p>Erro ao obter o cliente pretendido! Tente mais tarde.</p>
+                <p>A carregar.</p>
             )}
           
         </>

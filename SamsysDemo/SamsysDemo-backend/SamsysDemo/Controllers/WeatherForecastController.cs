@@ -2,6 +2,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SamsysDemo.Controllers
 {
+    /// <summary>
+    /// This controller seems to be out of scope of the application business
+    /// </summary>
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
