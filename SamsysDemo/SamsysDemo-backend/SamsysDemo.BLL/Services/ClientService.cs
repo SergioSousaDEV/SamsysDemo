@@ -96,7 +96,8 @@ namespace SamsysDemo.BLL.Services
                     IsActive = client.IsActive,
                     ConcurrencyToken = Convert.ToBase64String(client.ConcurrencyToken),
                     Name = client.Name,
-                    PhoneNumber = client.PhoneNumber
+                    PhoneNumber = client.PhoneNumber,
+                    DateOfBirth = client.DateOfBirth
                 };
                 response.Success = true;
                 return response;

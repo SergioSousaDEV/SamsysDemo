@@ -38,7 +38,8 @@ export default function GetAllPaginatedClient() {
               <tr>
                 <th>Nome</th>
                 <th>Contacto</th>
-                <th>Data Nascimento</th>                
+                <th>Data Nascimento</th>
+                <th>Mais info</th>              
               </tr>
             </thead>
             <tbody>
@@ -50,6 +51,9 @@ export default function GetAllPaginatedClient() {
                     <td>{resultGetClient.name}</td>
                     <td>{resultGetClient.phoneNumber}</td>
                     <td>{dateOfBirth}</td>
+                    <td>
+                      <a href={`/client/${resultGetClient.id}`}>Consultar</a>
+                    </td>
                 </tr>
                 );
             })}

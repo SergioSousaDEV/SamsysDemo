@@ -4,6 +4,7 @@ import EditClient from './pages/client/editClient'
 import Home from './pages/home'
 import CreateClient from './pages/client/createClient'
 import GetAllPaginatedClient from './pages/client/getAllPaginatedClient'
+import ViewClient from './pages/client/viewClient'
 
 
 function App() {
@@ -16,10 +17,10 @@ function App() {
             element={<Home />}
           />
 
-        <Route
-          path="/clients"
-          element={<GetAllPaginatedClient />}
-        />
+          <Route
+            path="/clients"
+            element={<GetAllPaginatedClient />}
+          />
 
           <Route
             path="/client/create"
@@ -29,6 +30,11 @@ function App() {
           <Route
             path="/client/edit/:id"
             element={<EditClient />}
+          />
+
+          <Route
+            path="/client/:id"
+            element={<ViewClient/>}
           />
         </Routes>
       </BrowserRouter>
