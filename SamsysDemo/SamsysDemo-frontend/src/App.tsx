@@ -3,6 +3,8 @@ import './App.css'
 import EditClient from './pages/client/editClient'
 import Home from './pages/home'
 import CreateClient from './pages/client/createClient'
+import GetAllPaginatedClient from './pages/client/getAllPaginatedClient'
+
 
 function App() {
   return (
@@ -13,6 +15,11 @@ function App() {
             path={"/"}
             element={<Home />}
           />
+
+        <Route
+          path="/clients"
+          element={<GetAllPaginatedClient />}
+        />
 
           <Route
             path="/client/create"

@@ -4,6 +4,7 @@ import { ClientEditDTO } from "../models/client/clientEditDTO";
 import { MessagingHelper } from "../models/helper/messagingHelper";
 import { ClientCreateDTO } from "../models/client/clientCreateDTO";
 
+
 var apiBaseUrl = process.env.REACT_APP_API_URL;
 export class ClientService {
     async Get(id: number): Promise<MessagingHelper<ClientDTO | null>> {
@@ -19,6 +20,26 @@ export class ClientService {
         }
         catch (ex) {
             return new MessagingHelper<null>(false, "Ocorreu um erro inesperado ao obter o cliente", null)
+        }
+    }
+
+    async GetAllPaginated(pageNumber: number,pageSize: number ): Promise<MessagingHelper<PaginatedResponse<ClientDTO>>> {
+        try {
+            const result = await axios.get(`${apiBaseUrl}client`, {
+                headers: {
+                    Accept: "application/json",
+                    "Content-Type": "application/json"
+                },
+                params: {
+                    pageNumber: pageNumber,
+                    pageSize: pageSize
+                }
+            });
+
+            return result.data;
+        }
+        catch (ex) {
+            return new MessagingHelper<PaginatedResponse<ClientDTO>>(false, "Ocorreu um erro inesperado ao obter os clientes", createEmptyPaginatedResponse() )
         }
     }
 
